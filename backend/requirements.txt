@@ -10,3 +10,5 @@ python-dotenv
 mysqlclient
 Flask-Migrate
 Flask-Script
+flake8
+isort

@@ -1,14 +1,13 @@
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-from flask_marshmallow import Marshmallow
-
-from flask_script import Manager
-from flask_migrate import Migrate,MigrateCommand
+import os
+from os.path import dirname, join
 
 import sqlalchemy
-import os
-from os.path import join, dirname
 from dotenv import load_dotenv
+from flask import Flask
+from flask_marshmallow import Marshmallow
+from flask_migrate import Migrate, MigrateCommand
+from flask_script import Manager
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 load_dotenv(verbose=True)

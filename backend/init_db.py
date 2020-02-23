@@ -1,6 +1,7 @@
-import sqlalchemy
 import os
-from os.path import join, dirname
+from os.path import dirname, join
+
+import sqlalchemy
 from dotenv import load_dotenv
 
 load_dotenv(verbose=True)

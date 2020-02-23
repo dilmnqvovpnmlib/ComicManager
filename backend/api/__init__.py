@@ -1,8 +1,11 @@
-from flask import Flask, make_response, jsonify
-from .views.user import user_router
+from flask import Flask, jsonify, make_response
 from flask_cors import CORS
-from api.database import db
+
 import config
+from api.database import db
+
+from .views.user import user_router
+
 
 def create_app():
 

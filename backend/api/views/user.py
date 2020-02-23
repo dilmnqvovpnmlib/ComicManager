@@ -1,6 +1,8 @@
-from flask import Blueprint, request, make_response, jsonify
-from api.models import User, UserSchema
 import json
+
+from flask import Blueprint, jsonify, make_response, request
+
+from api.models import User, UserSchema
 
 # ルーティング設定
 user_router = Blueprint('user_router', __name__)
