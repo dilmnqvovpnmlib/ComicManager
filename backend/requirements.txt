@@ -2,3 +2,11 @@ Flask
 SQLAlchemy 
 flask-sqlalchemy 
 PyMySQL
+Marshmallow
+flask-cors
+marshmallow-sqlalchemy
+flask-marshmallow
+python-dotenv
+mysqlclient
+Flask-Migrate
+Flask-Script
