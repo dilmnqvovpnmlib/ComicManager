@@ -1,1 +1,1 @@
-from .user import User, UserSchema
+from .models import Author, AuthorSchema, Comic, ComicSchema
